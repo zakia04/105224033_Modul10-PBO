@@ -3,13 +3,13 @@ import java.util.*;
 public class PreTestKedaiKopi {
     public static void main(String[] args) {
         
-        // TODO 1: Struktur data untuk menyimpan Antrean pelanggan.    
+        //TODO 1: Struktur data untuk menyimpan Antrean pelanggan.    
         LinkedList<String> antrean = new LinkedList<>();
 
-        // TODO 2: Struktur data untuk menyimpan Nomor Meja yang sedang dipakai.
+        //TODO 2: Struktur data untuk menyimpan Nomor Meja yang sedang dipakai.
         Set<Integer> mejaTerisi = new HashSet<>();
 
-        // TODO 3: Struktur data untuk menyimpan Daftar Harga Menu.
+        //TODO 3: Struktur data untuk menyimpan Daftar Harga Menu.
         Map<String, Integer> hargaMenu = new HashMap<>();
 
         // --- SIMULASI (TIDAK PERLU DIUBAH) ---
