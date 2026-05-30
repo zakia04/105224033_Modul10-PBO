@@ -3,7 +3,6 @@ public class SistemGudang {
     Map<String, Barang> gudang = new HashMap<>();
     Set<String> kategori = new HashSet<>();
     List<String> riwayat = new ArrayList<>();
-
     public void tambahBarangBaru(Barang barang) {
         gudang.put(barang.idBarang, barang);
         kategori.add(barang.kategori);
@@ -29,14 +28,10 @@ public class SistemGudang {
             System.out.println("Barang dengan ID " + idBarang + " tidak ditemukan.");
         }
     }
-
-
     public void cetakLaporan() {
         for (String i : gudang.keySet()) {
             Barang barang = gudang.get(i);
             System.out.println("Kategori: " + barang.kategori + ", Sisa Stok: " + barang.stok + ", " + riwayat.get(0));
         }
-    }
-
-    
+    }   
 }

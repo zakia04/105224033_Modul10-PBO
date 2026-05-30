@@ -10,3 +10,8 @@ class Barang {
         this.stok = stok;
     }
 }
+
+
+
+
+
